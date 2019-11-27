@@ -22,6 +22,7 @@ end
 `;
 
 fs.appendFile('platforms/ios/Podfile', podExtraSettings, function (err, data) {
+  console.log('yoooo');
   if (err) {
     console.log(err);
     process.exit(1);
