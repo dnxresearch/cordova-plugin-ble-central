@@ -6,7 +6,6 @@ const xcode = require('xcode'),
       path = require('path');
 
 module.exports = function(context) {
-      console.log('foobar');
     const COMMENT_KEY = /_comment$/;
     var ConfigParser = context.requireCordovaModule('cordova-common/src/ConfigParser/ConfigParser');
     const projectRoot = context.opts.projectRoot;
